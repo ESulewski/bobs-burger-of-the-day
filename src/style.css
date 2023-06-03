@@ -3,6 +3,9 @@
 }
 body{
     background-color: #feffdf;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px ;
 
 }
 .black-board{
@@ -10,20 +13,25 @@ body{
     background-color: #393e46;
     width: fit-content;
     text-align: center;
-    justify-content: center;
-
+    padding: 15px;
 }
 .burger-title{
     font-family: 'Londrina Outline', cursive;
     color: var(--main-font-color);
-    font-size: 48px;
+    font-size: 58px;
+    padding-bottom: 0;
 }
 .burger-subtitle{
     font-family: 'Rock Salt', cursive;
     color: var(--main-font-color);
     text-decoration: underline;
+    font-size: 20px;
+    padding-top: 0;
+    transform: translate(-17px, -17px) rotateZ(5deg);
 }
 .day-burger, .price {
     font-family: 'Rock Salt', cursive;
     color: var(--main-font-color);
+    font-size: 30px;
+    
 }
