@@ -1,0 +1,29 @@
+:root{
+    --main-font-color: #fffdfb;
+}
+body{
+    background-color: #feffdf;
+
+}
+.black-board{
+    border: 5px solid #a55233;
+    background-color: #393e46;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+
+}
+.burger-title{
+    font-family: 'Londrina Outline', cursive;
+    color: var(--main-font-color);
+    font-size: 48px;
+}
+.burger-subtitle{
+    font-family: 'Rock Salt', cursive;
+    color: var(--main-font-color);
+    text-decoration: underline;
+}
+.day-burger, .price {
+    font-family: 'Rock Salt', cursive;
+    color: var(--main-font-color);
+}
