@@ -11,7 +11,8 @@ body{
 .black-board{
     border: 5px solid #a55233;
     background-color: #393e46;
-    width: fit-content;
+    width: 250px;
+    height: 400px;
     text-align: center;
     padding: 15px;
 }
@@ -32,6 +33,6 @@ body{
 .day-burger, .price {
     font-family: 'Rock Salt', cursive;
     color: var(--main-font-color);
-    font-size: 30px;
+    font-size: 20px;
     
 }
