@@ -44,5 +44,5 @@ setTimeout (function()
     setInterval(func, fullDay);
 }, day);
 
-runDisplayBurger(1,0,());
+runDisplayBurger(1,0,() =>new Date());
 displayBurger();
