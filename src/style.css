@@ -7,6 +7,13 @@ body{
     justify-content: center;
     padding-top: 50px ;
 }
+h1{
+    color: #854836;
+    text-shadow: 5px 16px 11px rgba(133, 72, 54, 0.5);
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+}
 .black-board{
     border: 5px solid #a55233;
     background-color: #393e46;

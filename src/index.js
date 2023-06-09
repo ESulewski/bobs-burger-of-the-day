@@ -30,19 +30,4 @@ let burgerElement = document.querySelector("#day-burger");
     burgerElement.innerHTML = special, burgers[random];
 }
 
-function runDisplayBurger(hour, minutes, func){
-    let fullDay = 86400000;
-    let now = new Date();
-    let day = new Date(now.getFullYear(), now.getMonth(), now.getDate(), hour, minutes, 0, 0).getTime() - now;
-    if (day < 0){
-        day += fullDay;
-    }
-}
-setTimeout (function()
-{
-    func();
-    setInterval(func, fullDay);
-}, day);
-
-runDisplayBurger(1,0,() =>new Date());
 displayBurger();
